@@ -1,0 +1,93 @@
+
+/* add google font -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+/* header section------------------------- */
+header{
+   margin-bottom: 33px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 677px;
+    background-color: #2d25a0;
+}
+.header-title{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+    /* border: 1px solid; */
+}
+.header-img img{
+    width: 556.01px;
+    height: 438px;
+}
+.button{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+}
+/* header end -------------------------- */
+
+/* main start -------------------------------- */
+main{
+    margin-top: 40px;
+}
+.players{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 5px  grey;
+    margin-top: 27px;
+}
+.player-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.player-name{
+    font-weight: bold;
+    font-size: 28px;
+}
+/* main end ---------------------------- */
+
+/* footer start ------ */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-container{
+    height: 215px;
+    width: 483px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img{
+    width: 100%;
+}
+.socialmedia-icon{
+    background-color: #969BAB;
+    height: 17.07px;
+    width: 17.7px;
+    border-radius: 50%;
+}
