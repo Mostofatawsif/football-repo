@@ -1,11 +1,11 @@
 
-/* add google font -------------- */
+/*----------- add google font -------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
 }
-/* header section------------------------- */
+/*--------------- header section------------------------- */
 header{
    margin-bottom: 33px;
 }
@@ -33,16 +33,6 @@ header{
     font-size: 16px;
     padding: 5px;
 }
-/* transition------------------- */
-.transition{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-}
-
-/* header end -------------------------- */
-
-
 
 /* main start -------------------------------- */
 main{
@@ -126,7 +116,7 @@ main{
     text-align: center;
 }
 
-/* footer start ------ */
+/* ------------------------footer start------------- ------ */
 footer{
     display: flex;
     justify-content: center;
@@ -156,11 +146,11 @@ footer{
 span{
     margin: 5px;
 }
-/* footer end ............ */
+/* ---------------footer end ............ */
 
 
 /*------------- media Quiry-------------- */
-/* Mobile device---------------- */
+/*----------------- Mobile device---------------- */
 @media only screen and (max-width:688px) {
 
    
