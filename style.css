@@ -67,6 +67,28 @@ main{
 }
 /* main end ---------------------------- */
 
+/* extra section start ----------------- */
+.extra-section{
+    height: 500px;
+    background-color: #2d25a0;
+    margin-top: 30px;
+    background-image: url(https://i.pinimg.com/736x/79/b5/21/79b521e4ab918650b8d614cbbd96d04c.jpg);
+    background-repeat:repeat-x;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.vedio-title{
+    color: rgb(39, 231, 21);
+    font-size: 40px;
+    
+}
+/*----------------- extra section two ---------------------------- */
+
+
 /* footer start ------ */
 footer{
     display: flex;
@@ -76,7 +98,6 @@ footer{
 .footer-container{
     height: 215px;
     width: 483px;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,9 +106,17 @@ footer{
 .footer-img{
     width: 100%;
 }
+#icon{
+    text-align: center;
+}
 .socialmedia-icon{
     background-color: #969BAB;
-    height: 17.07px;
-    width: 17.7px;
-    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    font-size: 12px;
 }
+span{
+    margin: 5px;
+}
+/* footer end ............ */
